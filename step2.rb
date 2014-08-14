@@ -15,5 +15,10 @@ puts words_2.reverse.map {|x| x.reverse!}
 
 puts ""
 
-#solution 3
+# Solution 3
 puts words_3.reverse!.each {|x| x.reverse!}
+
+puts ""
+
+# Solution 4
+puts words_4 = %[first seconds third fourth fifth sixth].reverse.split(' ')
