@@ -18,3 +18,8 @@ array_2 = array_1.map {|x| 12 ** x}
 
 puts "Array mapping method:\n"
 puts "#{array_2}\n\n"
+
+array_3 = [0, 1, 2, 3, 4, 5, 6, 7].map {|number| 12 ** number}
+
+puts "Array mapping one-line method:\n"
+puts "#{array_3}\n\n"
