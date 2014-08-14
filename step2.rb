@@ -1,9 +1,19 @@
 # Expected result ["htxis", "htfif", "htruof", "driht", "dnoces", "tsrif"]
 
-# Starting array
-words = %w(first seconds third fourth fifth sixth)
+# Starting arrays
+words_1 = %w(first seconds third fourth fifth sixth)
+words_2 = %w(first seconds third fourth fifth sixth)
+words_3 = %w(first seconds third fourth fifth sixth)
 
-#solution 1
-words.reverse!.map! {|x| x.reverse}
+# Solution 1
+puts words_1.reverse!.map! {|x| x.reverse}
 
-puts "#{words}"
+puts ""
+
+# Solution 2
+puts words_2.reverse.map {|x| x.reverse!}
+
+puts ""
+
+#solution 3
+puts words_3.reverse!.each {|x| x.reverse!}
