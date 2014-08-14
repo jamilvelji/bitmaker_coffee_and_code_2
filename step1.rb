@@ -23,3 +23,5 @@ array_3 = [0, 1, 2, 3, 4, 5, 6, 7].map {|number| 12 ** number}
 
 puts "Array mapping one-line method:\n"
 puts "#{array_3}\n\n"
+
+puts (0..7).map {|number| 12 ** number}
